@@ -108,6 +108,14 @@ BR2_PACKAGE_TREE=y
 BR2_PACKAGE_UTIL_LINUX_BINARIES=y
 BR2_PACKAGE_UTIL_LINUX_UUIDD=y
 
+# donaldguy fork additions:
+# nftables binaries (not technically needed for tailscale, but seem good to have)
+BR2_PACKAGE_LIBNFTNL=y
+BR2_PACKAGE_LIBMNL=y
+BR2_PACKAGE_READLINE=y
+
+BR2_PACKAGE_NFTABLES=y
+
 # Custom packages
 BR2_PACKAGE_BMCD=y
 BR2_PACKAGE_BMC_INSTALLER=y
