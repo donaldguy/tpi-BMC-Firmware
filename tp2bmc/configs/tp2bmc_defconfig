@@ -109,12 +109,22 @@ BR2_PACKAGE_UTIL_LINUX_BINARIES=y
 BR2_PACKAGE_UTIL_LINUX_UUIDD=y
 
 # donaldguy fork additions:
+BR2_PACKAGE_NCURSES=y
 # nftables binaries (not technically needed for tailscale, but seem good to have)
 BR2_PACKAGE_LIBNFTNL=y
 BR2_PACKAGE_LIBMNL=y
 BR2_PACKAGE_READLINE=y
 
 BR2_PACKAGE_NFTABLES=y
+
+# mosh
+BR2_PACKAGE_PROTOBUF=y
+BR2_PACKAGE_ZLIB=y
+
+BR2_PACKAGE_MOSH=y
+
+#procps-ng (for pgrep, pkill)
+BR2_PACKAGE_PROCPS_NG=y
 
 # Custom packages
 BR2_PACKAGE_BMCD=y
